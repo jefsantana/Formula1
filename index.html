@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portal completo sobre Fórmula 1 - Equipes, pilotos, carros e notícias da temporada 2025">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>F1 Racing | Portal Oficial da Fórmula 1</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo-container">
+                <img src="./assets/logo.png" alt="Logo F1" class="logo">
+            </div>
+            
+            <button class="mobile-menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#carros" class="nav-link">Carros</a></li>
+                <li><a href="#equipes" class="nav-link">Equipes</a></li>
+                <li><a href="#pilotos" class="nav-link">Pilotos</a></li>
+                <li><a href="#noticias" class="nav-link">Notícias</a></li>
+            </ul>
+            
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="hero-overlay"></div>
+        <img src="./assets/img4.jpg" alt="Fórmula 1" class="hero-image">
+        
+        <div class="hero-content">
+            <div class="hero-badge">Temporada 2025</div>
+            <h1 class="hero-title">Bem-vindo ao <span class="gradient-text">Fórmula 1 Racing</span></h1>
+            <p class="hero-subtitle">Seu portal completo para tudo sobre o Campeonato Mundial de Fórmula 1</p>
+            <div class="hero-buttons">
+                <a href="#equipes" class="btn btn-primary">
+                    Explorar Equipes
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#carros" class="btn btn-secondary">
+                    Ver Carros
+                </a>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">10</span>
+                    <span class="stat-label">Equipes</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">20</span>
+                    <span class="stat-label">Pilotos</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">24</span>
+                    <span class="stat-label">Corridas</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>Rolar para baixo</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Carros Section -->
+    <section class="carros-section" id="carros">
+        <div class="section-header">
+            <span class="section-badge">Tecnologia</span>
+            <h2 class="section-title">Equipes F1 2025</h2>
+            <p class="section-subtitle">Conheça as máquinas mais velozes do planeta</p>
+        </div>
+
+        <div class="carros-grid">
+            <!-- McLaren -->
+            <article class="carro-card">
+                <div class="carro-image-wrapper">
+                    <img src="./assets/carromaclaren1.png" alt="McLaren F1" class="carro-image">
+                    <div class="carro-overlay">
+                        <span class="team-badge mclaren">McLaren</span>
+                    </div>
+                </div>
+                <div class="carro-content">
+                    <h3 class="carro-title">McLaren Racing</h3>
+                    <p class="carro-description">
+                        Desde 1966, a McLaren construiu um legado impressionante com 9 campeonatos de construtores e lendas como Senna, Häkkinen e Hamilton.
+                    </p>
+                    <div class="carro-stats">
+                        <div class="stat">
+                            <i class="fas fa-trophy"></i>
+                            <span>9 Títulos</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-flag-checkered"></i>
+                            <span>183 Vitórias</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Mercedes -->
+            <article class="carro-card">
+                <div class="carro-image-wrapper">
+                    <img src="./assets/carromercedes1.png" alt="Mercedes F1" class="carro-image">
+                    <div class="carro-overlay">
+                        <span class="team-badge mercedes">Mercedes</span>
+                    </div>
+                </div>
+                <div class="carro-content">
+                    <h3 class="carro-title">Mercedes-AMG Petronas</h3>
+                    <p class="carro-description">
+                        Dominância absoluta na era híbrida. A equipe alemã estabeleceu novos padrões de excelência com 8 títulos consecutivos de construtores.
+                    </p>
+                    <div class="carro-stats">
+                        <div class="stat">
+                            <i class="fas fa-trophy"></i>
+                            <span>8 Títulos</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-flag-checkered"></i>
+                            <span>125 Vitórias</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Red Bull -->
+            <article class="carro-card">
+                <div class="carro-image-wrapper">
+                    <img src="./assets/carroredbull1.jpg" alt="Red Bull F1" class="carro-image">
+                    <div class="carro-overlay">
+                        <span class="team-badge redbull">Red Bull</span>
+                    </div>
+                </div>
+                <div class="carro-content">
+                    <h3 class="carro-title">Red Bull Racing</h3>
+                    <p class="carro-description">
+                        A força dominante dos anos 2010 com Vettel e agora com Verstappen. Quatro títulos consecutivos de construtores consolidaram seu lugar na história.
+                    </p>
+                    <div class="carro-stats">
+                        <div class="stat">
+                            <i class="fas fa-trophy"></i>
+                            <span>6 Títulos</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-flag-checkered"></i>
+                            <span>121 Vitórias</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Ferrari -->
+            <article class="carro-card">
+                <div class="carro-image-wrapper">
+                    <img src="./assets/carroferrrari1.png" alt="Ferrari F1" class="carro-image">
+                    <div class="carro-overlay">
+                        <span class="team-badge ferrari">Ferrari</span>
+                    </div>
+                </div>
+                <div class="carro-content">
+                    <h3 class="carro-title">Scuderia Ferrari</h3>
+                    <p class="carro-description">
+                        A lenda viva da F1. Única equipe presente desde 1950, o Cavallino Rampante é sinônimo de paixão, história e excelência italiana.
+                    </p>
+                    <div class="carro-stats">
+                        <div class="stat">
+                            <i class="fas fa-trophy"></i>
+                            <span>16 Títulos</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-flag-checkered"></i>
+                            <span>243 Vitórias</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Williams -->
+            <article class="carro-card">
+                <div class="carro-image-wrapper">
+                    <img src="./assets/carrowillians1.png" alt="Williams F1" class="carro-image">
+                    <div class="carro-overlay">
+                        <span class="team-badge williams">Williams</span>
+                    </div>
+                </div>
+                <div class="carro-content">
+                    <h3 class="carro-title">Williams Racing</h3>
+                    <p class="carro-description">
+                        Legado de Frank Williams vive através de décadas de inovação. Uma das equipes mais vitoriosas, agora em nova era sob Dorilton Capital.
+                    </p>
+                    <div class="carro-stats">
+                        <div class="stat">
+                            <i class="fas fa-trophy"></i>
+                            <span>9 Títulos</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-flag-checkered"></i>
+                            <span>114 Vitórias</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Racing Bulls -->
+            <article class="carro-card">
+                <div class="carro-image-wrapper">
+                    <img src="./assets/carroRacing Bulls1.png" alt="Racing Bulls F1" class="carro-image">
+                    <div class="carro-overlay">
+                        <span class="team-badge rb">Racing Bulls</span>
+                    </div>
+                </div>
+                <div class="carro-content">
+                    <h3 class="carro-title">Visa Cash App RB</h3>
+                    <p class="carro-description">
+                        Evolução da Toro Rosso/AlphaTauri. Berço de talentos como Vettel, agora uma construtora independente focada em desenvolver futuros campeões.
+                    </p>
+                    <div class="carro-stats">
+                        <div class="stat">
+                            <i class="fas fa-trophy"></i>
+                            <span>1 Vitória</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-users"></i>
+                            <span>Academia</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Aston Martin -->
+            <article class="carro-card">
+                <div class="carro-image-wrapper">
+                    <img src="./assets/carroAston Martin1.png" alt="Aston Martin F1" class="carro-image">
+                    <div class="carro-overlay">
+                        <span class="team-badge aston">Aston Martin</span>
+                    </div>
+                </div>
+                <div class="carro-content">
+                    <h3 class="carro-title">Aston Martin Aramco</h3>
+                    <p class="carro-description">
+                        Marca britânica icônica retorna à F1 com ambições de título. Ex-Racing Point/Force India, agora com investimento massivo e Fernando Alonso.
+                    </p>
+                    <div class="carro-stats">
+                        <div class="stat">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Em Ascensão</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-star"></i>
+                            <span>8 Pódios</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Haas -->
+            <article class="carro-card">
+                <div class="carro-image-wrapper">
+                    <img src="./assets/carrohaascarright1.png" alt="Haas F1" class="carro-image">
+                    <div class="carro-overlay">
+                        <span class="team-badge haas">Haas</span>
+                    </div>
+                </div>
+                <div class="carro-content">
+                    <h3 class="carro-title">MoneyGram Haas F1</h3>
+                    <p class="carro-description">
+                        Primeira equipe americana em três décadas. Fundada por Gene Haas em 2016, representa o sonho americano nas pistas europeias.
+                    </p>
+                    <div class="carro-stats">
+                        <div class="stat">
+                            <i class="fas fa-flag-usa"></i>
+                            <span>USA Team</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-calendar"></i>
+                            <span>Desde 2016</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Sauber -->
+            <article class="carro-card">
+                <div class="carro-image-wrapper">
+                    <img src="./assets/carrosaubercarright1.png" alt="Sauber F1" class="carro-image">
+                    <div class="carro-overlay">
+                        <span class="team-badge sauber">Sauber</span>
+                    </div>
+                </div>
+                <div class="carro-content">
+                    <h3 class="carro-title">Stake F1 Team Sauber</h3>
+                    <p class="carro-description">
+                        Tradição suíça desde 1993. Revelou talentos como Schumacher e Frentzen. Prepara-se para se tornar Audi em 2026.
+                    </p>
+                    <div class="carro-stats">
+                        <div class="stat">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Academia</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-forward"></i>
+                            <span>Audi 2026</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Alpine -->
+            <article class="carro-card">
+                <div class="carro-image-wrapper">
+                    <img src="./assets/carro5alpinecarright1.png" alt="Alpine F1" class="carro-image">
+                    <div class="carro-overlay">
+                        <span class="team-badge alpine">Alpine</span>
+                    </div>
+                </div>
+                <div class="carro-content">
+                    <h3 class="carro-title">BWT Alpine F1</h3>
+                    <p class="carro-description">
+                        Renascimento da Renault como Alpine em 2021. Divisão de carros esportivos da marca francesa busca retornar ao topo do pódio.
+                    </p>
+                    <div class="carro-stats">
+                        <div class="stat">
+                            <i class="fas fa-flag"></i>
+                            <span>França</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-medal"></i>
+                            <span>1 Vitória</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Equipes Section -->
+    <section class="equipes-section" id="equipes">
+        <div class="section-header">
+            <span class="section-badge">Grid 2025</span>
+            <h2 class="section-title">Equipes da Temporada</h2>
+            <p class="section-subtitle">Conheça todos os construtores da grade atual</p>
+        </div>
+
+        <div class="equipes-grid">
+            <div class="equipe-card">
+                <div class="equipe-header">
+                    <img src="./assets/alpine-logo-2.jpg" alt="Alpine Logo" class="equipe-logo">
+                    <img src="./assets/frança.svg" alt="França" class="equipe-flag">
+                </div>
+                <img src="./assets/carro5alpinecarright1.png" alt="Alpine A525" class="equipe-car">
+                <h3>Alpine-Renault A525</h3>
+                <p class="equipe-country"><i class="fas fa-map-marker-alt"></i> França</p>
+            </div>
+
+            <div class="equipe-card">
+                <div class="equipe-header">
+                    <img src="./assets/logo-aston-martin.jpg.webp" alt="Aston Martin Logo" class="equipe-logo">
+                    <img src="./assets/ReinoUnido.svg" alt="Reino Unido" class="equipe-flag">
+                </div>
+                <img src="./assets/carroAston Martin1.png" alt="Aston Martin" class="equipe-car">
+                <h3>Aston Martin Aramco</h3>
+                <p class="equipe-country"><i class="fas fa-map-marker-alt"></i> Reino Unido</p>
+            </div>
+
+            <div class="equipe-card featured">
+                <div class="equipe-header">
+                    <img src="./assets/logo-ferrari.jpg" alt="Ferrari Logo" class="equipe-logo">
+                    <img src="./assets/italia.svg" alt="Itália" class="equipe-flag">
+                </div>
+                <img src="./assets/carroferrrari1.png" alt="Ferrari SF-25" class="equipe-car">
+                <h3>Ferrari SF-25</h3>
+                <p class="equipe-country"><i class="fas fa-map-marker-alt"></i> Itália</p>
+                <span class="featured-badge">Mais Títulos</span>
+            </div>
+
+            <div class="equipe-card">
+                <div class="equipe-header">
+                    <img src="./assets/logo-haas.webp" alt="Haas Logo" class="equipe-logo">
+                    <img src="./assets/estados-unidos.svg" alt="EUA" class="equipe-flag">
+                </div>
+                <img src="./assets/carrohaascarright1.png" alt="Haas VF25" class="equipe-car">
+                <h3>Haas-Ferrari VF25</h3>
+                <p class="equipe-country"><i class="fas fa-map-marker-alt"></i> Estados Unidos</p>
+            </div>
+
+            <div class="equipe-card featured">
+                <div class="equipe-header">
+                    <img src="./assets/logo-mclaren.jpg" alt="McLaren Logo" class="equipe-logo">
+                    <img src="./assets/ReinoUnido.svg" alt="Reino Unido" class="equipe-flag">
+                </div>
+                <img src="./assets/carromaclaren1.png" alt="McLaren MCL39" class="equipe-car">
+                <h3>McLaren-Mercedes MCL39</h3>
+                <p class="equipe-country"><i class="fas fa-map-marker-alt"></i> Reino Unido</p>
+                <span class="featured-badge">Campeão 2024</span>
+            </div>
+
+            <div class="equipe-card">
+                <div class="equipe-header">
+                    <img src="./assets/logo-mercedes.webp" alt="Mercedes Logo" class="equipe-logo">
+                    <img src="./assets/alemanha.svg" alt="Alemanha" class="equipe-flag">
+                </div>
+                <img src="./assets/carromercedes1.png" alt="Mercedes W16" class="equipe-car">
+                <h3>Mercedes-AMG F1 W16</h3>
+                <p class="equipe-country"><i class="fas fa-map-marker-alt"></i> Alemanha</p>
+            </div>
+
+            <div class="equipe-card">
+                <div class="equipe-header">
+                    <img src="./assets/logo-redbull.jpg" alt="Red Bull Logo" class="equipe-logo">
+                    <img src="./assets/australia.svg" alt="Áustria" class="equipe-flag">
+                </div>
+                <img src="./assets/carroredbull1.jpg" alt="Red Bull RB21" class="equipe-car">
+                <h3>Red Bull Racing RB21</h3>
+                <p class="equipe-country"><i class="fas fa-map-marker-alt"></i> Áustria</p>
+            </div>
+
+            <div class="equipe-card">
+                <div class="equipe-header">
+                    <img src="./assets/logo-williams.jpg" alt="Williams Logo" class="equipe-logo">
+                    <img src="./assets/ReinoUnido.svg" alt="Reino Unido" class="equipe-flag">
+                </div>
+                <img src="./assets/carrowillians1.png" alt="Williams FW47" class="equipe-car">
+                <h3>Williams-Mercedes FW47</h3>
+                <p class="equipe-country"><i class="fas fa-map-marker-alt"></i> Reino Unido</p>
+            </div>
+
+            <div class="equipe-card">
+                <div class="equipe-header">
+                    <img src="./assets/logo-stakef1team-1.jpg" alt="Sauber Logo" class="equipe-logo">
+                    <img src="./assets/bandeira-suiça.svg" alt="Suíça" class="equipe-flag">
+                </div>
+                <img src="./assets/carrosaubercarright1.png" alt="Sauber C44" class="equipe-car">
+                <h3>Stake F1 Sauber C44</h3>
+                <p class="equipe-country"><i class="fas fa-map-marker-alt"></i> Suíça</p>
+            </div>
+
+            <div class="equipe-card">
+                <div class="equipe-header">
+                    <img src="./assets/logo-rb.jpg" alt="RB Logo" class="equipe-logo">
+                    <img src="./assets/italia.svg" alt="Itália" class="equipe-flag">
+                </div>
+                <img src="./assets/carroRacing Bulls1.png" alt="RB VCARB 01" class="equipe-car">
+                <h3>Racing Bulls VCARB 01</h3>
+                <p class="equipe-country"><i class="fas fa-map-marker-alt"></i> Itália</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pilotos Section -->
+    <section class="pilotos-section" id="pilotos">
+        <div class="section-header">
+            <span class="section-badge">Grid Completo</span>
+            <h2 class="section-title">Pilotos 2025</h2>
+            <p class="section-subtitle">Os melhores pilotos do mundo competindo pelo título</p>
+        </div>
+
+        <div class="pilotos-hero">
+            <img src="./assets/pilotos.jpg" alt="Pilotos F1 2025" class="pilotos-image">
+            <div class="pilotos-overlay">
+                <h3>20 Pilotos | 10 Equipes | 1 Campeão</h3>
+            </div>
+        </div>
+
+        <div class="pilotos-grid">
+            <div class="piloto-card mclaren-card">
+                <div class="piloto-team">McLaren</div>
+                <div class="piloto-names">
+                    <span class="piloto-number">4</span>
+                    <div>
+                        <p class="piloto-name">Lando Norris</p>
+                        <p class="piloto-name">Oscar Piastri</p>
+                    </div>
+                    <span class="piloto-number">81</span>
+                </div>
+            </div>
+
+            <div class="piloto-card ferrari-card">
+                <div class="piloto-team">Ferrari</div>
+                <div class="piloto-names">
+                    <span class="piloto-number">16</span>
+                    <div>
+                        <p class="piloto-name">Charles Leclerc</p>
+                        <p class="piloto-name">Lewis Hamilton</p>
+                    </div>
+                    <span class="piloto-number">44</span>
+                </div>
+            </div>
+
+            <div class="piloto-card redbull-card">
+                <div class="piloto-team">Red Bull Racing</div>
+                <div class="piloto-names">
+                    <span class="piloto-number">1</span>
+                    <div>
+                        <p class="piloto-name">Max Verstappen</p>
+                        <p class="piloto-name">Liam Lawson</p>
+                    </div>
+                    <span class="piloto-number">30</span>
+                </div>
+            </div>
+
+            <div class="piloto-card mercedes-card">
+                <div class="piloto-team">Mercedes</div>
+                <div class="piloto-names">
+                    <span class="piloto-number">63</span>
+                    <div>
+                        <p class="piloto-name">George Russell</p>
+                        <p class="piloto-name">Andrea Kimi Antonelli</p>
+                    </div>
+                    <span class="piloto-number">12</span>
+                </div>
+            </div>
+
+            <div class="piloto-card aston-card">
+                <div class="piloto-team">Aston Martin</div>
+                <div class="piloto-names">
+                    <span class="piloto-number">18</span>
+                    <div>
+                        <p class="piloto-name">Lance Stroll</p>
+                        <p class="piloto-name">Fernando Alonso</p>
+                    </div>
+                    <span class="piloto-number">14</span>
+                </div>
+            </div>
+
+            <div class="piloto-card haas-card">
+                <div class="piloto-team">Haas F1 Team</div>
+                <div class="piloto-names">
+                    <span class="piloto-number">31</span>
+                    <div>
+                        <p class="piloto-name">Esteban Ocon</p>
+                        <p class="piloto-name">Oliver Bearman</p>
+                    </div>
+                    <span class="piloto-number">87</span>
+                </div>
+            </div>
+
+            <div class="piloto-card rb-card">
+                <div class="piloto-team">Racing Bulls</div>
+                <div class="piloto-names">
+                    <span class="piloto-number">22</span>
+                    <div>
+                        <p class="piloto-name">Yuki Tsunoda</p>
+                        <p class="piloto-name">Isack Hadjar</p>
+                    </div>
+                    <span class="piloto-number">6</span>
+                </div>
+            </div>
+
+            <div class="piloto-card williams-card">
+                <div class="piloto-team">Williams</div>
+                <div class="piloto-names">
+                    <span class="piloto-number">23</span>
+                    <div>
+                        <p class="piloto-name">Alexander Albon</p>
+                        <p class="piloto-name">Carlos Sainz</p>
+                    </div>
+                    <span class="piloto-number">55</span>
+                </div>
+            </div>
+
+            <div class="piloto-card sauber-card">
+                <div class="piloto-team">Stake F1 Sauber</div>
+                <div class="piloto-names">
+                    <span class="piloto-number">27</span>
+                    <div>
+                        <p class="piloto-name">Nico Hulkenberg</p>
+                        <p class="piloto-name">Gabriel Bortoleto</p>
+                    </div>
+                    <span class="piloto-number">5</span>
+                </div>
+            </div>
+
+            <div class="piloto-card alpine-card">
+                <div class="piloto-team">Alpine</div>
+                <div class="piloto-names">
+                    <span class="piloto-number">10</span>
+                    <div>
+                        <p class="piloto-name">Pierre Gasly</p>
+                        <p class="piloto-name">Jack Doohan</p>
+                    </div>
+                    <span class="piloto-number">7</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notícias Section -->
+    <section class="noticias-section" id="noticias">
+        <div class="section-header">
+            <span class="section-badge">Atualizações</span>
+            <h2 class="section-title">Últimas Notícias</h2>
+            <p class="section-subtitle">Fique por dentro de tudo que acontece na F1</p>
+        </div>
+
+        <div class="noticias-grid">
+            <a href="https://motorsport.uol.com.br/f1/news/" target="_blank" class="noticia-card">
+                <img src="./assets/UOL_logo_old.png" alt="Motorsport UOL">
+                <div class="noticia-info">
+                    <h3>Motorsport</h3>
+                    <p>Cobertura completa e análises profundas</p>
+                    <span class="noticia-link">Acessar <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </a>
+
+            <a href="https://www.espn.com.br/f1/" target="_blank" class="noticia-card">
+                <img src="./assets/logo-espn.png" alt="ESPN">
+                <div class="noticia-info">
+                    <h3>ESPN</h3>
+                    <p>Notícias em tempo real</p>
+                    <span class="noticia-link">Acessar <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </a>
+
+            <a href="https://ge.globo.com/motor/formula-1/" target="_blank" class="noticia-card">
+                <img src="./assets/globo-esporte.png" alt="Globo Esporte">
+                <div class="noticia-info">
+                    <h3>Globo Esporte</h3>
+                    <p>Transmissão oficial no Brasil</p>
+                    <span class="noticia-link">Acessar <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </a>
+
+            <a href="https://www.grandepremio.com.br/f1/" target="_blank" class="noticia-card">
+                <img src="./assets/grande-premio.png" alt="Grande Prêmio">
+                <div class="noticia-info">
+                    <h3>Grande Prêmio</h3>
+                    <p>Portal especializado em F1</p>
+                    <span class="noticia-link">Acessar <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </a>
+
+            <a href="https://www.autoracing.com.br/" target="_blank" class="noticia-card">
+                <img src="./assets/autoracing.jpg" alt="Auto Racing">
+                <div class="noticia-info">
+                    <h3>Auto Racing</h3>
+                    <p>Automobilismo brasileiro</p>
+                    <span class="noticia-link">Acessar <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <img src="./assets/logo.png" alt="F1 Logo" class="footer-logo">
+                <p>Seu portal completo sobre Fórmula 1</p>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#carros">Carros</a></li>
+                    <li><a href="#equipes">Equipes</a></li>
+                    <li><a href="#pilotos">Pilotos</a></li>
+                    <li><a href="#noticias">Notícias</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Recursos</h4>
+                <ul>
+                    <li><a href="#">Calendário 2025</a></li>
+                    <li><a href="#">Resultados</a></li>
+                    <li><a href="#">Classificação</a></li>
+                    <li><a href="#">Estatísticas</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <p>Receba as últimas notícias da F1</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu e-mail" required>
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Fórmula 1 Racing. Desenvolvido por <a href="https://www.linkedin.com/in/jeferson-santana-machado/">Jeferson Santana.</a></p>
+            <div class="footer-links">
+                <a href="#">Termos de Uso</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
