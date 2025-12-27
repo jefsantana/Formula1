@@ -1,60 +1,63 @@
 # 🏎️ Fórmula 1 Racing
 
-Portal moderno sobre Fórmula 1 desenvolvido com HTML e CSS.
+Portal moderno e responsivo sobre a Fórmula 1, desenvolvido com **HTML5** e **CSS3**, focado em performance, design e boa experiência do usuário.
 
 ## 📋 Sobre o Projeto
 
-Site informativo sobre a temporada 2025 da Fórmula 1, apresentando equipes, pilotos, carros e links para notícias atualizadas.
+O **Fórmula 1 Racing** é um site informativo sobre a temporada **2025 da Fórmula 1**, reunindo informações sobre **equipes**, **pilotos**, **carros** e **notícias atualizadas** do automobilismo mundial.
 
-## 🚀 Tecnologias
+O projeto foi desenvolvido com fins **educacionais** e como parte do **portfólio**, aplicando boas práticas de estruturação, responsividade e design.
 
-- HTML5
-- CSS3
-- Google Fonts (Playfair Display e Inter)
+## 🚀 Tecnologias Utilizadas
+
+- **HTML5** – Estrutura semântica
+- **CSS3** – Estilização e animações
+- **Google Fonts**
+  - Playfair Display
+  - Inter
 
 ## 📂 Estrutura de Arquivos
 
-```
+```text
 projeto/
 │
 ├── index.html          # Página principal
-├── styles.css          # Estilos         
+├── styles.css          # Estilos globais
 │
 └── assets/             # Imagens e recursos
     ├── logo.png
     ├── img4.jpg
     ├── pilotos.jpg
     └── ...
-```
+````
 
-## 🎨 Funcionalidades
+## ✨ Funcionalidades
 
-- Design responsivo para todos os dispositivos
-- Navegação suave entre seções
-- Efeitos visuais ao passar o mouse
-- Menu mobile funcional
-- Animações CSS
-- Grid de equipes e pilotos
-- Links para portais de notícias
-
+* Layout **totalmente responsivo**
+* Navegação suave entre seções
+* Menu mobile funcional
+* Animações e transições em CSS
+* Efeitos visuais ao passar o mouse (hover)
+* Grid dinâmico de equipes e pilotos
+* Links externos para portais de notícias da F1
 
 ## 📱 Seções do Site
 
-- **Home** - Apresentação com imagem hero
-- **Carros** - Informações sobre as equipes e seus carros
-- **Equipes** - Grid com todas as equipes da temporada 2025
-- **Pilotos** - Lista completa de pilotos por equipe
-- **Notícias** - Links para principais portais de F1
+* **Home** – Apresentação com imagem hero
+* **Carros** – Informações sobre os carros das equipes
+* **Equipes** – Grid com todas as equipes da temporada 2025
+* **Pilotos** – Lista completa de pilotos por equipe
+* **Notícias** – Acesso rápido aos principais portais de Fórmula 1
 
-## 🎨 Cores do Projeto
+## 🎨 Paleta de Cores
 
-- Vermelho Principal: `#E10600`
-- Fundo Escuro: `#0A0A0F`
-- Cinza: `#15151E`
+* 🔴 Vermelho Principal: `#E10600`
+* ⚫ Fundo Escuro: `#0A0A0F`
+* ⚙️ Cinza Secundário: `#15151E`
 
 ## 📝 Customização
 
-Para alterar as cores, edite as variáveis CSS no arquivo `styles.css`:
+As cores do projeto podem ser facilmente alteradas através das variáveis CSS no arquivo `styles.css`:
 
 ```css
 :root {
@@ -64,10 +67,17 @@ Para alterar as cores, edite as variáveis CSS no arquivo `styles.css`:
 }
 ```
 
-## 📄 Licença
+## 🌐 Projeto Publicado
 
-Projeto desenvolvido para fins educacionais JefSantana.
+🔗 **Acesse o site:**
+[https://jefsantana.github.io/Formula1/](https://jefsantana.github.io/Formula1/)
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Jeferson Santana**
+Projeto criado para fins educacionais e portfólio.
 
 ---
 
-⚡ Desenvolvido com paixão pela Fórmula 1
+⚡ *Desenvolvido com paixão por Fórmula 1 e tecnologia.*
+
