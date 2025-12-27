@@ -126,7 +126,7 @@ body {
 }
 
 .logo {
-    height: 50px;
+    height: 5vh;
     width: auto;
     transition: transform var(--transition-base);
 }
